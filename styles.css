@@ -2,10 +2,10 @@
 /* Your CSS Code here. */
 .holder {
   display: grid;
-	width:200px;
+	width:400px;
 	background-color:blue;
 	grid-template-rows:repeat(2,1fr);
-	grid-template-coloumns:repeat(2,1fr);
+	grid-template-columns: repeat(2,1fr);
 	coloumn-gap:5px;
 	row-gap:5px;
 }
